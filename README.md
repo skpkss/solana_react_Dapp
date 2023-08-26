@@ -1,13 +1,35 @@
-## Running React on Repl.it
+# Solana React Dapp
+This is a simple React application that demonstrates how to connect to the Phantom wallet extension for the Solana blockchain. It allows users to connect their wallets, view their connected account's address, and disconnect from the wallet.
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+## Getting Started
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+Install the dependencies:
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+   ```bash
+   npm install
+   ```
 
-### Getting Started
-- Hit run
-- Edit [App.tsx](#src/App.tsx) and watch it live update!
+### Usage
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+1. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+   This will run the app in development mode and open it in your default web browser.
+
+2. Connect your Phantom wallet using the "Connect Wallet" button. You will be prompted to approve the connection in the Phantom wallet extension.
+
+3. Once connected, your wallet's public key will be displayed on the screen.
+
+4. To disconnect, click the "Disconnect" button.
+
+## Features
+
+- Connect to Phantom Wallet using the Phantom browser extension.
+- Display the connected wallet's public key.
+- Disconnect from the wallet.
+
+
+# This code is contributed by saurabh kaplas.
